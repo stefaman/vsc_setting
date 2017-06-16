@@ -1,0 +1,14 @@
+{
+    "window.zoomLevel": 2,
+    "editor.renderControlCharacters": true,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "http.proxyStrictSSL": false,
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.background": "#0000ff"
+    },
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.tabCompletion": true,
+    "files.autoSave": "afterDelay",
+    "go.autocompleteUnimportedPackages": true
+}
