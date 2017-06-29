@@ -9,6 +9,7 @@
     "workbench.colorTheme": "Atom One Dark",
     "workbench.iconTheme": "vscode-icons",
     "editor.tabCompletion": true,
-    "files.autoSave": "afterDelay",
-    "go.autocompleteUnimportedPackages": true
+    "files.autoSave": "off",
+    "go.autocompleteUnimportedPackages": false,
+    "git.enableSmartCommit": true
 }

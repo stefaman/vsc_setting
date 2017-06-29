@@ -43,4 +43,13 @@
         "command": "cursorDown",
         "when": "editorTextFocus"
     },
-]
+    {
+        "key": "ctrl+d",
+        "command": "deleteRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "deleteLeft",
+        "when": "editorTextFocus"
+    },
