@@ -1,0 +1,77 @@
+{
+	// Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Require": {
+		"prefix": "crq",
+		"body": [
+			"const $1 = require('$2');"
+		],
+		"description": ""
+	},
+	"Const require": {
+		"prefix": "cd",
+		"body": [
+			"const {\n\t$1\n} = require('$0');\n"
+		],
+		"description": ""
+	},
+	"Const =": {
+		"prefix": "ce",
+		"body": [
+			"const $1 = $2;"
+		],
+		"description": ""
+	},
+	"Const await function": {
+		"prefix": "caf",
+		"body": [
+			"const $1 = await $2($3);"
+		],
+		"description": ""
+	},
+	"Async anonymous function exec": {
+		"prefix": "asfe",
+		"body": [
+			"(async () => {\n\t$1\n})();\n"
+		],
+		"description": ""
+	},
+	"Async named function": {
+		"prefix": "asf",
+		"body": [
+			"async function $1($2) {",
+			"\t$3",
+			"}"
+		],
+		"description": ""
+	},
+	"Async method": {
+		"prefix": "asm",
+		"body": [
+			"async $1($2) {",
+			"\t$3",
+			"}"
+		],
+		"description": ""
+	},
+	"Anonymous function": {
+		"prefix": "lambda",
+		"body": [
+			"($1) => {",
+			"\t$3",
+			"}"
+		],
+		"description": ""
+	}
+}
